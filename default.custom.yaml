@@ -1,0 +1,22 @@
+patch:
+    schema_list:
+        - schema: double_pinyin_flypy
+        - schema: luna_pinyin_simp
+    switcher/hotkeys:
+      - "Control+grave"
+      - "Control+Shift+grave"
+    ascii_composer/good_old_caps_lock: true
+    ascii_composer/switch_key:
+      Caps_Lock: noop
+      Control_L: noop
+      Control_R: noop
+      Eisu_toggle: clear
+      # 按下左 shift 英文字符直接上屏，不需要再次回车，输入法保持英文状态
+      Shift_L: commit_code
+      shift_R: noop
+    menu/page_size: 6
+    key_binder/bindings:
+      - { when: has_menu, accept: "Control+k", send: Page_Up }
+      - { when: has_menu, accept: "Control+j", send: Page_Down }
+      - { when: has_menu, accept: "Control+h", send: Left }
+      - { when: has_menu, accept: "Control+l", send: Right }
