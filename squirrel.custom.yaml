@@ -14,10 +14,21 @@ patch:
   style/border_width: 0
   style/candidate_format: "%c\u2005%@ \u2005"
 
-
-  app_options/com.apple.Xcode:
+app_options:
+  com.apple.Xcode:
     ascii_mode: true
-  app_options/com.runningwithcrayons.Alfred:
+  com.alfredapp.Alfred:
+    ascii_mode: true
+  com.runningwithcrayons.Alfred:
+    ascii_mode: true
+  com.runningwithcrayons.Alfred-2:
     ascii_mode: true
   app_options/com.googlecode.iterm2:
     ascii_mode: true
+    vim_mode: true
+  com.google.Chrome:
+    # 規避 https://github.com/rime/squirrel/issues/435
+    inline: true
+  ru.keepcoder.Telegram:
+    # 規避 https://github.com/rime/squirrel/issues/475
+    inline: true

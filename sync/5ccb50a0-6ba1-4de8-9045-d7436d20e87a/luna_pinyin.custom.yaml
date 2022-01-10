@@ -1,0 +1,12 @@
+patch:
+  translator:
+    dictionary: squirrel
+  # engine/translators/+: lua_translator@date_translator
+  # engine/translators/+: lua_translator@time_translator
+  # engine/translators/+: lua_translator@number_translator
+
+__patch:
+# Rx: emoji:customize:schema=luna_pinyin {
+  - patch/+:
+      __include: emoji_suggestion:/patch
+# }

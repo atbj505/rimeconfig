@@ -84,7 +84,7 @@ speller:
     #- abbrev/^(.).+$/$1/
 
 translator:
-  dictionary: luna_pinyin
+  dictionary: squirrel
   prism: double_pinyin
   preedit_format:
     - xform/([bpmnljqxy])n/$1in/

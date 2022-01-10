@@ -1,0 +1,34 @@
+patch:
+  us_keyboard_layout: true                 # 键盘选项：应用美式键盘布局
+# 状态通知，适当，也可设为全开（always）全关（never）
+  show_notifications_when: appropriate
+#
+  style/color_scheme: purity_of_essence    # 选择配色方案
+  style/horizontal: true                   # 候选窗横向显示
+  style/inline_preedit: true               # 关闭内嵌编码，这样就可以显示首行的拼音
+  style/corner_radius: 5                  # 窗口圆角半径
+  # style/font_face: "Source Code Pro"       # 字体名称
+  style/font_point: 16                     # 字号
+  style/label_font_point: 14
+  style/border_height: 0
+  style/border_width: 0
+  style/candidate_format: "%c\u2005%@ \u2005"
+
+app_options:
+  com.apple.Xcode:
+    ascii_mode: true
+  com.alfredapp.Alfred:
+    ascii_mode: true
+  com.runningwithcrayons.Alfred:
+    ascii_mode: true
+  com.runningwithcrayons.Alfred-2:
+    ascii_mode: true
+  app_options/com.googlecode.iterm2:
+    ascii_mode: true
+    vim_mode: true
+  com.google.Chrome:
+    # 規避 https://github.com/rime/squirrel/issues/435
+    inline: true
+  ru.keepcoder.Telegram:
+    # 規避 https://github.com/rime/squirrel/issues/475
+    inline: true

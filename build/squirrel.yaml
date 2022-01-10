@@ -1,8 +1,8 @@
 __build_info:
-  rime_version: 1.5.3
+  rime_version: 1.7.3
   timestamps:
-    squirrel: 1561294610
-    squirrel.custom: 1610354552
+    squirrel: 1613228858
+    squirrel.custom: 1638417436
 app_options:
   co.zeit.hyper:
     ascii_mode: true
@@ -13,8 +13,6 @@ app_options:
   com.apple.Terminal:
     ascii_mode: true
     no_inline: true
-  com.apple.Xcode:
-    ascii_mode: true
   com.apple.dt.Xcode:
     ascii_mode: true
   com.barebones.textwrangler:
@@ -23,13 +21,14 @@ app_options:
     ascii_mode: true
   com.github.atom:
     ascii_mode: true
+  com.google.Chrome:
+    inline: true
   com.googlecode.iterm2:
     ascii_mode: true
+    no_inline: true
   com.macromates.TextMate.preview:
     ascii_mode: true
   com.microsoft.VSCode:
-    ascii_mode: true
-  com.runningwithcrayons.Alfred:
     ascii_mode: true
   "com.runningwithcrayons.Alfred-2":
     ascii_mode: true
@@ -43,8 +42,11 @@ app_options:
   org.vim.MacVim:
     ascii_mode: true
     no_inline: true
+    vim_mode: true
+  ru.keepcoder.Telegram:
+    inline: true
 chord_duration: 0.1
-config_version: 0.33
+config_version: 0.37
 preset_color_schemes:
   apathy:
     author: "LIANG Hai"
@@ -188,7 +190,6 @@ preset_color_schemes:
     author: "xiehuc <xiehuc@gmail.com>"
     back_color: 0x252320
     border_color: 0x020202
-    border_color_width: 0
     border_height: 6
     border_width: 6
     candidate_format: "%c %@"
@@ -209,13 +210,15 @@ preset_color_schemes:
     label_font_point: 14
     name: "沙漠夜／Mojave Dark"
     text_color: 0xdedddd
+  native:
+    name: "系統配色"
   psionics:
     author: "雨過之後、佛振"
     back_color: 0x444444
     candidate_text_color: 0xeeeeee
     comment_text_color: 0x808080
     hilited_back_color: 0x444444
-    hilited_candidate_back_color: 0xd8bf00
+    hilited_candidate_back_color: 0xd4bc00
     hilited_candidate_label_color: 0xfafafa
     hilited_candidate_text_color: 0xfafafa
     hilited_comment_text_color: 0x444444
@@ -244,6 +247,40 @@ preset_color_schemes:
     hilited_text_color: 0xeeeeee
     name: "純粹的形式／Purity of Form"
     text_color: 0xc2c2c2
+  solarized_dark:
+    author: "雪齋 <lyc20041@gmail.com>"
+    back_color: 0xf0352A0A
+    border_color: 0xf02A1F00
+    candidate_text_color: 0x989F52
+    color_space: display_p3
+    comment_text_color: 0x289989
+    hilited_back_color: 0xf04C4022
+    hilited_candidate_back_color: 0xD7E8ED
+    hilited_candidate_label_color: 0x2566C6
+    hilited_candidate_text_color: 0x3942CB
+    hilited_comment_text_color: 0x8144C2
+    hilited_text_color: 0x2C8BAE
+    label_color: 0xCC8947
+    name: "曬經・月／Solarized Dark"
+    preedit_back_color: 0xf0403516
+    text_color: 0xA1A095
+  solarized_light:
+    author: "雪齋 <lyc20041@gmail.com>"
+    back_color: 0xf0E5F6FB
+    border_color: 0xf0EDFFFF
+    candidate_text_color: 0x3942CB
+    color_space: display_p3
+    comment_text_color: 0x8144C2
+    hilited_back_color: 0xf0C9DADF
+    hilited_candidate_back_color: 0x403516
+    hilited_candidate_label_color: 0xCC8947
+    hilited_candidate_text_color: 0x989F52
+    hilited_comment_text_color: 0x289989
+    hilited_text_color: 0xBE706D
+    label_color: 0x2566C6
+    name: "曬經・日／Solarized Light"
+    preedit_back_color: 0xf0D7E8ED
+    text_color: 0x756E5D
   solarized_rock:
     author: "Aben <tntaben@gmail.com>, based on Ethan Schoonover's Solarized color scheme"
     back_color: 0x362b00
@@ -275,12 +312,15 @@ style:
   border_width: 0
   candidate_format: "%c %@  "
   color_scheme: purity_of_essence
+  comment_font_point: 18
   corner_radius: 5
   font_face: "Lucida Grande"
   font_point: 16
+  hilited_corner_radius: 0
   horizontal: true
   inline_preedit: true
   label_font_point: 14
   line_spacing: 5
   spacing: 10
+  text_orientation: horizontal
 us_keyboard_layout: true

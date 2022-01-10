@@ -12,6 +12,16 @@ import_tables:
   - luna_pinyin.poetry
   - luna_pinyin.sogou
   - luna_pinyin.emoji
+  - luna_pinyin.popular
+  - luna_pinyin.xiandaihanyu
+  - luna_pinyin.chengyusuyu
+  - luna_pinyin.computer
+  - luna_pinyin.kaifa
+  - luna_pinyin.chat
+  - luna_pinyin.place
+  - luna_pinyin.shopping
+  - luna_pinyin.website
+  - luna_pinyin.comprehensive
 ...
 
 GitHub	github	1000

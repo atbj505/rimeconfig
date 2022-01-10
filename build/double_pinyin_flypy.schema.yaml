@@ -1,23 +1,16 @@
 __build_info:
-  rime_version: 1.5.3
+  rime_version: 1.7.3
   timestamps:
-    default: 1575266247
-    default.custom: 1610354762
-    double_pinyin_flypy.custom: 1610506053
-    double_pinyin_flypy.schema: 1575266410
-    emoji_suggestion: 1610355720
-    emoji_suggestion.custom: 0
-    key_bindings: 1575266247
+    default: 1610611004
+    default.custom: 1610611004
+    double_pinyin_flypy.custom: 1637751237
+    double_pinyin_flypy.schema: 1610611004
+    key_bindings: 1610611004
     key_bindings.custom: 0
-    punctuation: 1575266247
+    punctuation: 1610611004
     punctuation.custom: 0
-emoji_suggestion:
-  opencc_config: emoji.json
-  option_name: emoji_suggestion
-  tips: all
 engine:
   filters:
-    - "simplifier@emoji_suggestion"
     - simplifier
     - uniquifier
   processors:
@@ -189,8 +182,5 @@ switches:
   - name: simplification
     reset: 1
     states: ["漢字", "汉字"]
-  - name: emoji_suggestion
-    reset: 1
-    states: ["🈚️️︎", "🈶️️️"]
 translator:
-  dictionary: squirrel
+  dictionary: luna_pinyin.extended

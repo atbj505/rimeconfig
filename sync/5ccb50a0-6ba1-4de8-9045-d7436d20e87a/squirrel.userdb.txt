@@ -1,0 +1,10 @@
+# Rime user dictionary
+#@/db_name	squirrel.userdb
+#@/db_type	userdb
+#@/rime_version	1.5.3
+#@/tick	1
+#@/user_id	5ccb50a0-6ba1-4de8-9045-d7436d20e87a
+en 	恩	c=0 d=0.1 t=0
+sang chong 	桑蟲	c=0 d=0.1 t=0
+zang 	髒	c=0 d=0.1 t=0
+zang en sang chong 	髒恩桑蟲	c=1 d=1 t=1

@@ -1,0 +1,30 @@
+# encoding: utf-8
+
+---
+name: squirrel
+version: "2020-01-29"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - luna_pinyin
+  - luna_pinyin.extended
+  - luna_pinyin.hanyu
+  - luna_pinyin.poetry
+  - luna_pinyin.sogou
+  - luna_pinyin.emoji
+  - luna_pinyin.popular
+  - luna_pinyin.xiandaihanyu
+  - luna_pinyin.chengyusuyu
+  - luna_pinyin.computer
+  - luna_pinyin.kaifa
+  - luna_pinyin.chat
+  - luna_pinyin.place
+  - luna_pinyin.shopping
+  - luna_pinyin.website
+  - luna_pinyin.comprehensive
+...
+
+GitHub	github	1000
+JavaScript	js	1000
+macOS	macos	1000
+iOS	ios	1000
