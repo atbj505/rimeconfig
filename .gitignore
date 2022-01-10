@@ -1,0 +1,5 @@
+luna_pinyin.userdb/*
+squirrel.userdb/*
+sync/*
+.*.swp
+.DS_Store
